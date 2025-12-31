@@ -32,7 +32,7 @@ import httpx
 # Configuration
 BRAINOPS_API = "https://brainops-ai-agents.onrender.com"
 BRAINOPS_BACKEND = "https://brainops-backend-prod.onrender.com"
-API_KEY = os.getenv("BRAINOPS_API_KEY", "brainops_prod_key_2025")
+API_KEY = os.getenv("BRAINOPS_API_KEY", "")
 
 class ProductType(Enum):
     DIGITAL_TEMPLATE = "digital_template"

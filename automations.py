@@ -21,7 +21,7 @@ from enum import Enum
 import httpx
 
 BRAINOPS_API = os.getenv("BRAINOPS_API", "https://brainops-ai-agents.onrender.com")
-API_KEY = os.getenv("BRAINOPS_API_KEY", "brainops_prod_key_2025")
+API_KEY = os.getenv("BRAINOPS_API_KEY", "")
 
 
 class AutomationLevel(Enum):
