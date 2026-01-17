@@ -67,7 +67,7 @@ python automations.py start
 
 Set environment variables:
 ```bash
-export BRAINOPS_API_KEY=brainops_prod_key_2025
+export BRAINOPS_API_KEY=<YOUR_BRAINOPS_API_KEY>
 export BRAINOPS_API=https://brainops-ai-agents.onrender.com
 ```
 
